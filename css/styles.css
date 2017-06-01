@@ -1,0 +1,30 @@
+#receipt {
+  display: none;
+
+}
+
+
+body {
+  background-color: tan;
+  font-family: cursive;;
+}
+
+
+#receipt {
+  padding: 40px;
+  border: solid 3px black;
+  margin: 20px;
+  text-align: center;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+
+img {
+  align-items: center;
+  height: 400px;
+  width: 600px;
+}

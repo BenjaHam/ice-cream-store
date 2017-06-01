@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Marketplace</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Marketplace</h1>
+      <img src="img/icecream.jpg" alt="hella flavors">
+      <form id="order">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <input id="address" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <h1>What are you buying...</h1>
+          <select class="form-control" id="product">
+            <option>Cookie Dough</option>
+            <option>Cake</option>
+            <option>French Vanilla</option>
+            <option>Strawberry</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <div id="receipt">
+        <p>Thank you <span class="person"></span> for ordering <span class="product1"></span> ice cream. Your items will be shipped to <span class="address1"></span> promptly.</p>
+      </div>
+    </div>
+  </body>
+</html>
